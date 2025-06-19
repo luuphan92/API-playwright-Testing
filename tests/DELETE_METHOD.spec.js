@@ -10,6 +10,6 @@ test ('DELETE method', async ({request}) => {
     const bodyJson = await response.json();
     console.log(bodyJson);
     // Verification
-    expect(response.status).toBe(200);
+    expect(response.status()).toBe(200);
 
 })

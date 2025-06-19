@@ -1,0 +1,9 @@
+{ title: 'foo', body: 'bar', userId: 1 }
+201
+{ title: 'foo', body: 'bar', userId: 1, id: 101 }
+{ title: 'baz', body: 'qux', userId: 2 }
+201
+{ title: 'baz', body: 'qux', userId: 2, id: 101 }
+{ title: 'quux', body: 'corge', userId: 3 }
+201
+{ title: 'quux', body: 'corge', userId: 3, id: 101 }
